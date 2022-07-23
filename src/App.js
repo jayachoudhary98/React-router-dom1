@@ -11,12 +11,11 @@ import Home from './componentes/Home';
 function App() {
   return (
    <>
-   <h1>ava</h1>
+   <h1>Java</h1>
    <Router>
         <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/contactus" component={Contact} />
-         
+        <Route path="/contactus" component={Contact} />        
           </Switch>
       </Router>  
    </>
