@@ -1,0 +1,23 @@
+/* .heade{
+    text-decoration-color: white;
+} */
+            /* h3{
+                color: aliceblue;
+            } */
+.header-list{
+    background-color: black;
+    
+     display: flex;
+     color: aliceblue;
+}
+ .itemss{
+    padding-top: 10px;
+    padding-left: 500px;
+    justify-content: center;
+    text-align: center;
+}
+
+ .items{
+    display: inline;
+    padding-left: 50px;
+}

@@ -1,21 +1,20 @@
 import React from 'react'
+// import './Header.js';
+
 import { Link } from "react-router-dom";
-const Home = () => {
+import { Card } from './Card.js';
+import { Carousel } from './Carousel.js';
+import { Footer } from './Footer.js';
+import { Header } from './Header.js';
+export const Home = () => {
   return (
     <>
-    <ul>
-        <li>
-          {/* Endpoint to route to Home component */}
-          <Link to="/">Home</Link>
-        </li>
-       
-        <li>
-          {/* Endpoint to route to Contact Us component */}
-          <Link to="/contactus">Contact Us</Link>
-        </li>
-      </ul>
+    <Header/>
+<Carousel/>
+<Card/>
+<Footer/>
+
     </>
   )
 }
 
-export default Home

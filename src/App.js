@@ -7,15 +7,25 @@ import {
 } from "react-router-dom";
 import { Switch} from  "react-router-dom";
 import Contact from './componentes/Contact';
-import Home from './componentes/Home';
+import { Home} from './componentes/Home';
+import { Header } from './componentes/Header';
+import {Gallery} from './componentes/Gallery';
+import {About} from './componentes/About';
+import { Carousel } from './componentes/Carousel';
+
 function App() {
   return (
    <>
-   <h1>Java</h1>
+   
    <Router>
         <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/contactus" component={Contact} />        
+          <Route exact path="/" component={Header}/>
+        {/* <Route exact path="/" component={Home} /> */}
+        <Route path="/home" component={Home} />    
+        <Route path="/about" component={About} />    
+
+        <Route path="/contactus" component={Contact} />    
+        <Route path="/gallery" component={Gallery} />    
           </Switch>
       </Router>  
    </>

@@ -1,0 +1,19 @@
+.mainfooter{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    display: flex;
+    padding-top: 10px;
+    padding-left: 30px;
+    /* justify-content: center; */
+
+}
+.footere{
+    padding-top: 30px;
+}
+.mainf{
+    padding-left: 150px;
+    justify-items: center;
+}

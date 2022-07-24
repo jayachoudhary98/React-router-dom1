@@ -1,0 +1,51 @@
+.mainimg{
+    height: 450px;
+    width: 100%;
+}
+.secsect{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding: 30px ;
+}
+.parafirst{
+    width: 50%;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    /* padding-right: 20px;
+    padding-left: 20px; */
+    padding-left: 40px
+
+}
+.parafirst h2{
+    color: rgb(0, 0, 0);
+    font-size: 40px bold;
+    font-weight: 600;
+
+}
+.imgsec{
+    width: 50%;
+   height: 180px;
+    /* padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px; */
+    padding-left: 40px;
+
+}
+.imgagee{
+    height: 350px;
+}
+.cards{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    gap: 1rem;
+
+}
+.image-height{
+    height: 300px;
+    width: 100%;
+}
